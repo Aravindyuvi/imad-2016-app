@@ -19,6 +19,7 @@ function createTemplate (data) {
     var heading = data.heading;
     var date = data.date;
     var content = data.content;
+    
 var htmlTemplate = `
 <html>
  <head>
@@ -31,17 +32,17 @@ var htmlTemplate = `
 <body>
     <div class ="container">
     <div>
-         <a href="/" >home</a>  
+    <a href="/" >home</a>  
      </div>
     <hr/>
     <h3>
-         $(heading)
+     $(heading)
     </h3>
     <div>
-          $(date)
+    $(date)
     </div>
     <div>
-           $(content)
+    $(content)
     </div>
      </div>
      </body>
