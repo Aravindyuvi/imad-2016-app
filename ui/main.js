@@ -16,6 +16,6 @@ span.innerHTML = counter.toStrimg();
 
 };
 request.open('GET', 'http://cloud.imad.hasura.io/counter',true);
-request.send(null)
+request.send(null);
 
 };
